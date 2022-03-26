@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-mpc
+Version: 0.1.1
+Summary: MPC package for python
+Home-page: https://github.com/forgi86/pyMPC.git
+Author: Marco Forgione
+Author-email: marco.forgione1986@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: cvx experiments
+License-File: LICENSE.md
+
+UNKNOWN
+

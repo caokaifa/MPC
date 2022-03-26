@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+pyMPC/__init__.py
+pyMPC/kalman.py
+pyMPC/mpc.py
+pyMPC/mpc_no_slack.py
+python_mpc.egg-info/PKG-INFO
+python_mpc.egg-info/SOURCES.txt
+python_mpc.egg-info/dependency_links.txt
+python_mpc.egg-info/requires.txt
+python_mpc.egg-info/top_level.txt
