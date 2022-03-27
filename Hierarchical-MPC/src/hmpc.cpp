@@ -577,9 +577,9 @@ void HMPC::execute_MPC(){
             /* form gradient vector*/
             gradient.segment<nx>(i*nx) << -Q*x_k_ref;
             gradient.segment<nu>((N+1)*nx+ i*nu) << -R*u_k_ref;
-            std::cout<<"HessianMatrix="<<HessianMatrix<<std::endl;
+            // std::cout<<"HessianMatrix="<<HessianMatrix<<std::endl;
 
-            std::cout<<"gradient="<<gradient<<std::endl;
+            // std::cout<<"gradient="<<gradient<<std::endl;
         }
         /* form constraint matrix */
         if (i<N){
