@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Load all parameters -->
+  <rosparam command="load" file="$(find mpcc_auto_race)/mpcc_params.yaml"/>
+  <!--<param name="waypoint_file" value ="$(find LearningMPC)/data/centerline_waypoints.csv"/>
+  <param name="init_data_file" value ="$(find LearningMPC)/data/initial_safe_set.csv"/> -->
+  <!-- Launch the learning MPC -->
+  <node pkg="mpcc_auto_race" name="mpcc_node" type="mpcc_node"  output="screen">
+  </node>
+
+</launch>
