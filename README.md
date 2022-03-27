@@ -10,3 +10,4 @@
 1.把这个Hierarchical-MPC与f110_simulator放到工作空间编译
 2.启动仿真环境：roslaunch f110_simulator simulator.launch
 3.启动控制算法：roslaunch hmpc_auto_race hmpc.launch
+![Screenshot from 2022-03-27 14-24-32](https://user-images.githubusercontent.com/21233498/160269500-62d0ed35-5f60-4fd5-8946-5fcf2872a7a1.png)
