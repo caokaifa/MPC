@@ -1,0 +1,22 @@
+pose_topic : "odom"
+drive_topic: "/drive"
+scan_topic: "scan"
+q_x : 5.0
+q_y : 5.0
+q_yaw : 1
+r_v : 2.0
+r_steer: 2.0
+q_s : 0
+
+N: 35
+Ts: 0.04
+
+SPEED_MAX: 1
+STEER_MAX: 0.41
+ACCELERATION_MAX: 5.0
+DECELERATION_MAX: 10.0
+speed_num: 40
+steer_num: 50
+MAP_MARGIN: 0.19
+
+SPEED_THRESHOLD: 2.0
